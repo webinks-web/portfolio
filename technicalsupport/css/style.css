@@ -11,7 +11,16 @@ body{
   min-height: auto;
 }
 .dropdown a{
-  margin: 3px;
+  margin: 5px;
+  padding: 3px 10px!important;
+}
+ .dropdown.open>a{
+  background: rgb(231, 231, 231)!important;
+  outline: 2px solid rgb(133, 130, 132)!important;
+  border-top: 2px solid rgb(189, 190, 189)!important;
+  border-left: 2px solid rgb(189, 190, 189)!important;
+  border-bottom: 2px solid rgb(255, 255, 255)!important;
+  border-right: 2px solid rgb(255, 255, 255)!important;
 }
 
 /* ==========================================================================
@@ -25,7 +34,6 @@ body{
   border-right: 2px solid rgb(189, 190, 189);
   border-top: 2px solid rgb(255, 255, 255);
   border-left: 2px solid rgb(255, 255, 255);
-  padding: 3px 10px!important;
 }
 
 
