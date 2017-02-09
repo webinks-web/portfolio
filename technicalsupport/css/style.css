@@ -39,4 +39,21 @@ body{
   border-left: 2px solid rgb(255, 255, 255);
 }
 
-
+/* ==========================================================================
+   Background Color Changer
+   ========================================================================== */
+.clr-picker{
+  width:60px;
+  position: fixed;
+  top:100px;
+  right: 0;
+}
+.clr-item{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+.pink{
+  background: #EE4266;
+}
