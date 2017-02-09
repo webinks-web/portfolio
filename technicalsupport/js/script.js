@@ -1,1 +1,11 @@
-
+$(document).ready(function(){
+  $('.pink').click(function(){
+    $('body').css('background','#A23E48');
+  });
+  $('.blue').click(function(){
+    $('body').css('background','#3E7CB1');
+  });
+  $('.yellow').click(function(){
+    $('body').css('background','#FFD07B');
+  });
+});
