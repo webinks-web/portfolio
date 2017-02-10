@@ -107,7 +107,8 @@ body{
 }
 .icons img{
   text-align: center;
-  width: 100px;
+  width: 80px;
+  height: 80px;
 }
 .icons a{
   text-decoration: none;
