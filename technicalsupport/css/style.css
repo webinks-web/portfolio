@@ -20,7 +20,7 @@ body{
   color: black;
   font-weight: bold;
 }
- .nav .open>a, .nav .open>a:hover{
+ .nav .open>a, .nav .open>a:hover, #date, #time{
   background: rgb(231, 231, 231) !important;
   outline: 2px solid rgb(133, 130, 132) !important;
   border-top: 2px solid rgb(189, 190, 189) !important;
@@ -31,12 +31,6 @@ body{
 #date, #time{
   margin: 10px;
   padding: 5px 10px!important;
-  background: rgb(231, 231, 231) !important;
-  outline: 2px solid rgb(133, 130, 132) !important;
-  border-top: 2px solid rgb(189, 190, 189) !important;
-  border-left: 2px solid rgb(189, 190, 189) !important;
-  border-bottom: 2px solid rgb(255, 255, 255) !important;
-  border-right: 2px solid rgb(255, 255, 255) !important;
 }
 
 /* ==========================================================================
