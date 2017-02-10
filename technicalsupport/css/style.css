@@ -20,7 +20,7 @@ body{
   color: black;
   font-weight: bold;
 }
- .nav .open>a, .nav .open>a:hover, #date, #time{
+ .nav .open>a, .nav .open>a:hover{
   background: rgb(231, 231, 231) !important;
   outline: 2px solid rgb(133, 130, 132) !important;
   border-top: 2px solid rgb(189, 190, 189) !important;
@@ -29,10 +29,13 @@ body{
   border-right: 2px solid rgb(255, 255, 255) !important;
 }
 #date, #time{
-  margin: 10px;
   padding: 5px 10px!important;
 }
-
+.navbar-right{
+  margin: 10px;
+  background: rgb(231, 231, 231) !important;
+  border: 2px solid rgb(133, 130, 132) !important;
+}
 .dropdown-menu, .dropdown-menu li>a:hover{
   background: rgb(231, 231, 231);
   outline: 2px solid rgb(133, 130, 132);
@@ -95,3 +98,25 @@ body{
   background: black;
 }
 
+/* ==========================================================================
+   Icons
+   ========================================================================== */
+.icons{
+  float: left;
+  margin: 10px;
+}
+.icons img{
+  text-align: center;
+  width: 100px;
+}
+.icons a{
+  text-decoration: none;
+}
+/*.icons a:hover, .icons img:hover{
+  background: rgb(11, 25, 111)
+}*/
+.icons p{
+  text-align: center;
+  color: black;
+  font-size: 18px;
+}
