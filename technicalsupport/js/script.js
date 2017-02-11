@@ -4,21 +4,27 @@ $(document).ready(function(){
 
   $('.pink').click(function(){
     $('body').css('background','#A23E48');
+    $('.icons p').css('color','black');
   });
   $('.blue').click(function(){
     $('body').css('background','#3E7CB1');
+    $('.icons p').css('color','black');
   });
   $('.yellow').click(function(){
     $('body').css('background','#FFD07B');
+    $('.icons p').css('color','black');
   });
   $('.white').click(function(){
     $('body').css('background','white');
+    $('.icons p').css('color','black');
   });
   $('.black').click(function(){
     $('body').css('background','black');
+    $('.icons p').css('color','white');
   });
 
   // Date and Time
+
   function updatetime(){
     var now = new Date().toLocaleTimeString();
     $('#time').html(now);
@@ -33,17 +39,19 @@ $(document).ready(function(){
   }
   date();
 
-  // var today = new Date();
-  // var dd = today.getDate();
-  // var mm = today.getMonth()+1; //January is 0!
+  // Fixed Navbar
 
-  // var yyyy = today.getFullYear();
-  // if(dd<10){
-  //     dd='0'+dd;
-  // } 
-  // if(mm<10){
-  //     mm='0'+mm;
-  // } 
-  // var today = dd+'/'+mm+'/'+yyyy;
-  // document.getElementById("DATE").value = today;
+  // var stickyOffset = $('.fix-nav').offset().top;
+
+  // $(window).scroll(function(){
+  //   var sticky = $('.fix-nav'),
+  //       scroll = $(window).scrollTop();
+
+  //   if (scroll >= stickyOffset) sticky.toggleClass('navbar-fixed-top');
+  // });
+
+  $(document).ready(function() {
+    var contentPlacement = $('.navbar').position().top + $('.navbar').height();
+    $('#content').css('margin-top',contentPlacement);
+  });
 });
