@@ -107,6 +107,7 @@ body{
 .icons{
   float: left;
   margin:10px 30px;
+  width: 80px;
 }
 .icons img{
   text-align: center;
