@@ -145,6 +145,9 @@ body{
   overflow: hidden;
 }
 
+/* ==========================================================================
+   Pop Up content
+   ========================================================================== */
 .ps_content, .cu_content, .pct_content, .bs_content, .h_content, .vr_content, .p_content, .si_content, .au_content {
   display: none;
   position: absolute;
@@ -160,4 +163,23 @@ body{
   border-left: 2px solid rgb(255, 255, 255);
   z-index: 1002;
   overflow: auto;
+}
+
+@media (max-width:768px){
+  .ps_content, .cu_content, .pct_content, .bs_content, .h_content, .vr_content, .p_content, .si_content, .au_content {
+  display: none;
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  padding:0 25px;
+  background: rgb(231, 231, 231);
+  border-bottom: 2px solid rgb(189, 190, 189);
+  border-right: 2px solid rgb(189, 190, 189);
+  border-top: 2px solid rgb(255, 255, 255);
+  border-left: 2px solid rgb(255, 255, 255);
+  z-index: 1002;
+  overflow: auto;
+  }
 }
