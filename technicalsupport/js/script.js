@@ -39,19 +39,9 @@ $(document).ready(function(){
   }
   date();
 
-  // Fixed Navbar
+  // Fixed navbar
 
-  // var stickyOffset = $('.fix-nav').offset().top;
+  var contentPlacement = $('.navbar').position().top + $('.navbar').height();
+  $('#content').css('margin-top',contentPlacement);
 
-  // $(window).scroll(function(){
-  //   var sticky = $('.fix-nav'),
-  //       scroll = $(window).scrollTop();
-
-  //   if (scroll >= stickyOffset) sticky.toggleClass('navbar-fixed-top');
-  // });
-
-  $(document).ready(function() {
-    var contentPlacement = $('.navbar').position().top + $('.navbar').height();
-    $('#content').css('margin-top',contentPlacement);
-  });
 });

@@ -144,3 +144,20 @@ body{
   height: 100vh;
   overflow: hidden;
 }
+
+.ps_content, .cu_content, .pct_content, .bs_content, .h_content, .vr_content, .p_content, .si_content, .au_content {
+  display: none;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  padding:0 25px;
+  background: rgb(231, 231, 231);
+  border-bottom: 2px solid rgb(189, 190, 189);
+  border-right: 2px solid rgb(189, 190, 189);
+  border-top: 2px solid rgb(255, 255, 255);
+  border-left: 2px solid rgb(255, 255, 255);
+  z-index: 1002;
+  overflow: auto;
+}
