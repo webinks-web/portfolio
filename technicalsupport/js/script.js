@@ -42,6 +42,6 @@ $(document).ready(function(){
   // Fixed navbar
 
   var contentPlacement = $('.navbar').position().top + $('.navbar').height();
-  $('#content').css('margin-top',contentPlacement);
+  $('#main-content').css('margin-top',contentPlacement);
 
 });
