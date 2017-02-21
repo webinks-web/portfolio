@@ -57,14 +57,14 @@ $(document).ready(function(){
   }
 });
 
-function  closeFe(){
-    $('#ps').css('display','none');
-    $('#cu').css('display','none');
-    $('#pct').css('display','none');
-    $('#bs').css('display','none');
-    $('#h').css('display','none');
-    $('#vr').css('display','none');
-    $('#p').css('display','none');
-    $('#si').css('display','none');
-    $('#au').css('display','none');
-  }
+// function  closeFe(){
+//     $('#ps').css('display','none');
+//     $('#cu').css('display','none');
+//     $('#pct').css('display','none');
+//     $('#bs').css('display','none');
+//     $('#h').css('display','none');
+//     $('#vr').css('display','none');
+//     $('#p').css('display','none');
+//     $('#si').css('display','none');
+//     $('#au').css('display','none');
+//   }
